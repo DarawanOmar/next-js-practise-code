@@ -16,6 +16,13 @@
   }
 }
 
+.text-grad {
+  background: linear-gradient(90deg,rgb(255, 47, 210),rgb(69, 94, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

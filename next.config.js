@@ -2,6 +2,9 @@
 const nextConfig = {
     images : {
         domains : ["serpapi.com"]
+    },
+    experimental : {
+        serverActions : true
     }
 }
 

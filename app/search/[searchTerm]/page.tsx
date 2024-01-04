@@ -43,7 +43,6 @@ export default async function page({params: {searchTerm}}: Props) {
 
     // throw new Error("Opps Some thing went wrong")
     const fetchData = await FetchResults(searchTerm); 
-    console.log(fetchData.organic_results);
     
   return (
     <>

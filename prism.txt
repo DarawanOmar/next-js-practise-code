@@ -1,0 +1,4 @@
+First : install packages like npm i prisma @prisma/client
+when you create a modle First Run this command : npx prisma generate
+and we must be migrate the table by this command : npx prisma migrate dev
+if you create another model after created some one your just nedd to run this command like  : npx prisma migrate deploy 
